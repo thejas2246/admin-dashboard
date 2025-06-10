@@ -17,7 +17,7 @@ body{
 }
 .main{
     background-color: aquamarine;
-    height: 100px;
+    grid-row: 2/3;
 }
 .sidebar{
     background-color: blueviolet;
@@ -95,4 +95,14 @@ input[type="text"]{
     font-weight: 800;
 
 }
-
+.main-left-container{
+    background-color: greenyellow;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.main-left-children{
+    background-color: antiquewhite;
+    padding: 20px 20px 20px 40px;
+    min-height: 200px;
+}
