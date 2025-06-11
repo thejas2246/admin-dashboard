@@ -1,3 +1,9 @@
+:root{
+    --blue:#3c90d0;
+    --grey:#e2e7ef;
+    --yellow:#e9b440;
+}
+
 *{
     font-family: roboto;
 }
@@ -107,7 +113,7 @@ input[type="text"]{
 .main-left-container{
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
 }
 .main-left-children{
     background-color: white;
@@ -161,4 +167,25 @@ h4{
 }
 h2{
     margin: 10px;
+}
+.sidebar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* grid-template-rows: ;
+        */
+}
+.sidebar-2-icons,.sidebar-3-icons,.sidebar-1{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar-1>p{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+
 }
