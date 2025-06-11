@@ -24,3 +24,7 @@ A responsive and modern admin dashboard UI built with HTML and CSS. This dashboa
 3. Customize `style/style.css` and `assets/` as needed.
 
 Feel free to fork or customize this project as per your needs!
+
+## 🔗 Live Demo
+
+👉 [Click here to view the demo](https://thejas2246.github.io/admin-dashboard/)
