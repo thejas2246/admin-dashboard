@@ -7,6 +7,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
 .header{
     background-color: bisque;
@@ -95,14 +96,69 @@ input[type="text"]{
     font-weight: 800;
 
 }
-.main-left-container{
-    background-color: greenyellow;
+.main{
+    padding: 20px;
+    padding-top: 3px;
+    padding-right: 40px;
     display: grid;
-    gap: 15px;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+.main-left-container{
+    display: grid;
+    gap: 30px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 .main-left-children{
-    background-color: antiquewhite;
+    background-color: white;
     padding: 20px 20px 20px 40px;
     min-height: 200px;
+    border-radius: 10px;
+    border-left: 8px solid orange;
+    display: grid;
+}
+.icons{
+    align-self: flex-end;
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    justify-content: end;
+    gap: 20px;
+}
+.announcement-children{
+    /* background-color: white; */
+    font-size: 0.8rem;
+}
+.announcement-children>div{
+    margin-bottom: 20px;
+}
+.announcement-container{
+    padding:40px 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+h4{
+    margin: 0;
+}
+.trending-child{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    /* gap: 20px; */
+}
+.trending-child>img{
+    grid-row: 1/3;
+    align-self: center;
+}
+.trending-child>*{
+    margin: 0;
+}
+.trending-container{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+h2{
+    margin: 10px;
 }
